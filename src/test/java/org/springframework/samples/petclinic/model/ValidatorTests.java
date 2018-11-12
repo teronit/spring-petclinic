@@ -20,9 +20,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class ValidatorTests {
 
     private Validator createValidator() {
-        LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();
-        localValidatorFactoryBean.afterPropertiesSet();
-        return localValidatorFactoryBean;
+        throw new RuntimeException();
     }
 
     @Test
